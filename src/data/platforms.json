@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Android",
+    "img": "./icons/android.svg"
+  },
+
+  {
+    "id": 2,
+    "name": "IOS",
+    "img": "./icons/ios.svg"
+  },
+
+  {
+    "id": 3,
+    "name": "PC",
+    "img": "./icons/pc.svg"
+  }
+]

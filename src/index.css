@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 section {
   margin-left: 5em;
   margin-right: 5em;
