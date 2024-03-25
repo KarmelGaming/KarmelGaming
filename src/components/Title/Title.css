@@ -1,0 +1,21 @@
+h1 {
+  font-size: var(--font-2xl);
+  font-weight: 900;
+  background: var(--clr-gradient);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 0.5em var(--clr-caramel);
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+/* md */
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--font-5xl);
+  }
+}

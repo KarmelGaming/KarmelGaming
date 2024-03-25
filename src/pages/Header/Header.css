@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.header img {
+  max-width: 10em;
+  filter: drop-shadow(0 0 0.5em var(--clr-caramel));
+  margin: auto;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .header img {
+    max-width: 15em;
+  }
+}

@@ -24,7 +24,7 @@
   --clr-caramel: #f1a335;
   --clr-light-blue: #87ceeb;
   --clr-blue: #20aee6;
-  --clr-gradient: linear-gradient(to right, #f1a335, #20aee6);
+  --clr-gradient: linear-gradient(to right, #c45901, #f1a335);
 
   --font-sm: 0.75rem;
   --font-md: 1rem;
@@ -50,4 +50,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+section {
+  margin-left: 5em;
+  margin-right: 5em;
 }
