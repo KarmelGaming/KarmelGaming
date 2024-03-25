@@ -1,4 +1,4 @@
-h1 {
+.main__title {
   font-size: var(--font-2xl);
   font-weight: 900;
   background: var(--clr-gradient);
@@ -7,10 +7,21 @@ h1 {
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 0.5em var(--clr-caramel);
   margin: auto;
+  text-align: center;
 }
 
 .title {
   text-align: center;
+  font-size: var(--font-2xl);
+  padding: 0.5em;
+  color: var(--clr-light-blue);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: var(--font-lg);
+  padding: 0.5em;
+  color: var(--clr-light-blue);
 }
 
 /* md */

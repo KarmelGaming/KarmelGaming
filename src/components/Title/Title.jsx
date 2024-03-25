@@ -7,7 +7,7 @@ const Title = ({
   isMainTitle = false,
 }) => {
   return isMainTitle ? (
-    <h1 className={`title ${parentName}__title`}>{content}</h1>
+    <h1 className={`main__title ${parentName}__title`}>{content}</h1>
   ) : !isSubtitle ? (
     <h2 className={`title ${parentName}__title`}>{content}</h2>
   ) : (

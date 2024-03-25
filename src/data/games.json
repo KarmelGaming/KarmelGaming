@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Rowerowe Narty",
+    "platforms": ["Android"],
+    "img": "./rowerowe_narty.svg",
+    "description": "Rowerowe Narty is an arcade mobile game where you have watch out on obstacles, collect boosts and get the highest score possible."
+  }
+]
