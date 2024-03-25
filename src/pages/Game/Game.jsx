@@ -19,11 +19,11 @@ const Game = ({ game }) => {
       <ul className="game__platforms">
         {game.platforms.map((platform, index) => (
           <li className="list__element" key={index}>
-            <a href={game.url} target="_blank">
+            <a href={platform.url} target="_blank">
               <img
                 className="platform__img"
-                src={getPlatformImg(platform)}
-                alt={platform}
+                src={getPlatformImg(platform.name)}
+                alt={platform.name}
               />
             </a>
           </li>
