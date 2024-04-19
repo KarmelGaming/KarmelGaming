@@ -5,7 +5,7 @@ import "./Games.css";
 const Games = ({ setGame }) => {
   return (
     <section className="games__section">
-      <Title content={"Games"} parentName={"games"} />
+      <Title parentName={"games"}>Games</Title>
       <div className="games">
         {gamesData.map((game, index) => (
           <div key={index} className="game" onClick={() => setGame(game)}>

@@ -5,11 +5,9 @@ const Header = ({ setGame }) => {
   return (
     <section className="header">
       <img src="./logo.svg" alt="Logo" onClick={() => setGame(null)} />
-      <Title
-        content={"Royal Karmel"}
-        parentName={"header"}
-        isMainTitle={true}
-      />
+      <Title parentName={"header"} isMainTitle={true}>
+        Royal Karmel
+      </Title>
     </section>
   );
 };

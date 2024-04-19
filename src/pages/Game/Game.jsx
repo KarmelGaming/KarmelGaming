@@ -14,7 +14,7 @@ const Game = ({ game }) => {
 
   return (
     <section className="game__section">
-      <Title content={game.name} parentName={"game"} />
+      <Title parentName={"game"}>{game.name}</Title>
       <img className="game__logo" src={game.logo} alt={game.name} />
       <ul className="game__platforms">
         {game.platforms.map((platform, index) => (
