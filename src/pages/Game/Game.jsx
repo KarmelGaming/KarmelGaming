@@ -15,7 +15,7 @@ const Game = ({ game }) => {
   return (
     <section className="game__section">
       <Title content={game.name} parentName={"game"} />
-      <img className="game__img" src={game.img} alt={game.name} />
+      <img className="game__logo" src={game.logo} alt={game.name} />
       <ul className="game__platforms">
         {game.platforms.map((platform, index) => (
           <li className="list__element" key={index}>
@@ -29,6 +29,16 @@ const Game = ({ game }) => {
           </li>
         ))}
       </ul>
+      <div className="game__images">
+        {game.images.map((image, index) => (
+          <img
+            className="game__img"
+            key={index}
+            src={image.src}
+            alt={image.alt}
+          />
+        ))}
+      </div>
       <p className="game__description">{game.description}</p>
     </section>
   );

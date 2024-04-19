@@ -8,7 +8,33 @@
         "url": "https://drive.google.com/file/d/19xucF_nwqpZvIMDjbVe78MU5biFiaACR/view?usp=sharing"
       }
     ],
-    "img": "./rowerowe_narty.svg",
+    "logo": "/games/rowerowe_narty/rowerowe_narty.svg",
+    "images": [
+      {
+        "src": "/games/rowerowe_narty/main_menu.png",
+        "alt": "Main Menu"
+      },
+
+      {
+        "src": "/games/rowerowe_narty/skins_store.png",
+        "alt": "Skins Store"
+      },
+
+      {
+        "src": "/games/rowerowe_narty/music_store.png",
+        "alt": "Music Store"
+      },
+
+      {
+        "src": "/games/rowerowe_narty/gameplay.png",
+        "alt": "Gameplay"
+      },
+
+      {
+        "src": "/games/rowerowe_narty/game_over.png",
+        "alt": "Game Over Screen"
+      }
+    ],
     "description": "Rowerowe Narty is an arcade mobile game where you have watch out on obstacles, collect boosts and get the highest score possible."
   }
 ]

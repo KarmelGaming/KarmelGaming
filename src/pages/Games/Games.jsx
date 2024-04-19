@@ -10,7 +10,7 @@ const Games = ({ setGame }) => {
         {gamesData.map((game, index) => (
           <div key={index} className="game" onClick={() => setGame(game)}>
             <Title content={game.name} parentName={"games"} isSubtitle={true} />
-            <img className="game__image" src={game.img} alt={game.name} />
+            <img className="game__icon" src={game.logo} alt={game.name} />
           </div>
         ))}
       </div>
