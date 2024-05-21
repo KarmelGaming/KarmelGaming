@@ -1,3 +1,4 @@
+import Description from "../../components/Description/Description";
 import Title from "../../components/Title/Title";
 import platformsData from "../../data/platforms.json";
 import "./Game.css";
@@ -39,7 +40,7 @@ const Game = ({ game }) => {
           />
         ))}
       </div>
-      <p className="game__description">{game.description}</p>
+      <Description className="game__description">{game.description}</Description>
     </section>
   );
 };

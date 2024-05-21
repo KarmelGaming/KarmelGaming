@@ -49,17 +49,6 @@
   cursor: pointer;
 }
 
-.game__description {
-  padding: 1em;
-  margin-top: 2em;
-  font-size: var(--font-md);
-  text-align: justify;
-  max-width: 80%;
-  border-radius: 10px;
-  border-bottom: 3px solid var(--clr-light);
-  background: var(--clr-blue);
-}
-
 /* md */
 @media (min-width: 768px) {
   .game__logo {
