@@ -5,7 +5,7 @@
     "platforms": [
       {
         "name": "Android",
-        "url": "https://drive.google.com/file/d/19xucF_nwqpZvIMDjbVe78MU5biFiaACR/view?usp=sharing"
+        "url": "https://kondy_kox.gamejolt.io/rowerowe_narty"
       }
     ],
     "logo": "./games/rowerowe_narty/rowerowe_narty.svg",
@@ -13,6 +13,11 @@
       {
         "src": "./games/rowerowe_narty/main_menu.png",
         "alt": "Main Menu"
+      },
+
+      {
+        "src": "./games/rowerowe_narty/leaderboard.png",
+        "alt": "Leaderboard"
       },
 
       {
@@ -26,7 +31,12 @@
       },
 
       {
-        "src": "./games/rowerowe_narty/gameplay.png",
+        "src": "./games/rowerowe_narty/gameplay1.png",
+        "alt": "Gameplay"
+      },
+
+      {
+        "src": "./games/rowerowe_narty/gameplay2.png",
         "alt": "Gameplay"
       },
 
@@ -35,6 +45,6 @@
         "alt": "Game Over Screen"
       }
     ],
-    "description": "Rowerowe Narty is an arcade mobile game where you have watch out on obstacles, collect boosts and get the highest score possible."
+    "description": "Simple mobile game, where you have to watch out on obstacles, enemies and collect boost and coins. Your goal is get the highest possible score!"
   }
 ]
