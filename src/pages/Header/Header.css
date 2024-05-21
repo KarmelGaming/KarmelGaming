@@ -1,9 +1,16 @@
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1em;
   position: relative;
+}
+
+.header__logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header img {
@@ -14,6 +21,16 @@
 
 .header img:hover {
   cursor: pointer;
+}
+
+.gamejolt {
+  padding: 1em;
+  margin: 1em;
+}
+
+.gamejolt img {
+  max-width: 17em;
+  filter: none;
 }
 
 /* md */

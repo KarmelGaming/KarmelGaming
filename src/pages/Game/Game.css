@@ -67,10 +67,6 @@
   .game__img:hover {
     box-shadow: 0 0 1em var(--clr-caramel);
   }
-
-  .game__description {
-    font-size: var(--font-lg);
-  }
 }
 
 /* lg */
